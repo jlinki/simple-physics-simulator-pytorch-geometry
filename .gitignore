@@ -3,3 +3,4 @@ __pycache__/
 rollouts/
 train_log/
 train_log_Water/
+misc/
