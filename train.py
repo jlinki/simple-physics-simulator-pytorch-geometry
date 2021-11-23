@@ -22,7 +22,7 @@ log_steps = 5
 eval_steps = 20
 save_steps = 100
 model_path = None
-data_path = 'data/Water'
+data_path = 'data'
 device = 'cuda'
 
 # Load information from .json file
@@ -146,10 +146,10 @@ if __name__ == '__main__':
         particle_dimension=2,
         node_in=30,
         edge_in=3,
-        latent_dim=64,
+        latent_dim=128,
         num_message_passing_steps=10,
-        mlp_num_layers=1,
-        mlp_hidden_dim=64,
+        mlp_num_layers=2,
+        mlp_hidden_dim=128,
         connectivity_radius=metadata['default_connectivity_radius'],
         boundaries=np.array(metadata['bounds']),
         normalization_stats=normalization_stats,

@@ -26,7 +26,7 @@ log_steps = 5
 eval_steps = 20
 save_steps = 100
 model_path = "train_log/run0/model.pth" # 'model425000.pth' # Model path to trained model; Important when infering
-data_path = 'data/Water'
+data_path = 'data'
 device = 'cuda'
 
 # Load information from .json file
